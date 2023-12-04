@@ -30,8 +30,6 @@ class _DetailScreenState extends State<DetailScreen>
       curve: Curves.linear,
     );
     rotationController.repeat();
-
-    // Use curvedAnimation in your RotationTransition instead of rotationController
   }
 
   @override
