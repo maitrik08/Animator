@@ -16,7 +16,7 @@ class _SplashScreenState extends State<SplashScreen> with TickerProviderStateMix
   void initState() {
 
     controller = FlutterGifController(vsync: this);
-    controller.animateTo(110,duration: Duration(seconds: 10));// Use `this` for vsync
+    controller.animateTo(110,duration: Duration(seconds: 10));
     Future.delayed(Duration(seconds: 10), () {
       Navigator.of(context).push(MaterialPageRoute(builder: (context) => HomeScreen()));
     });
