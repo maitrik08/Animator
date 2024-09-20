@@ -59,3 +59,4 @@ Project Technologies:
 - Flutter framework with MVC and Provider architecture
 
 Gif
+https://github.com/maitrik08/Animator/blob/master/gif/animation.gif
